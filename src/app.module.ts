@@ -5,7 +5,7 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { StudentSchema } from './app.schema';
 const MONGODB_URL =
-  'mongodb+srv://rdev69146:GEMf0Wia0uC0NFGZ@cluster0.kdvbgpe.mongodb.net/?retryWrites=true&w=majority';
+  'mongodb+srv://GZ@cluster0.kdvbgpe.mongodb.net/?retryWrites=true&w=majority';
 @Module({
   imports: [
     ConfigModule.forRoot({
